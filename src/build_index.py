@@ -39,7 +39,7 @@ def build_index():
             })
     print(f"Created {len(all_chunks)} chunks.")
 
-    print("Loading embedding model (first run downloads it, be patient)...")
+    print("Loading embedding model (first run downloads it)...")
     model = SentenceTransformer("all-MiniLM-L6-v2")
 
     print("Generating embeddings...")
